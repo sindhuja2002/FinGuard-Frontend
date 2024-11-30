@@ -1,7 +1,6 @@
 import { SidebarNav } from '@/components/nav/sidebar-nav'
 import { ToasterProvider } from '@/components/providers/toaster-provider'
 import { AuthProvider } from '@/components/providers/auth-provider'
-import { NotificationAlerts } from '@/components/notifications/notication-alerts'
 
 export default function DashboardLayout({
   children,
