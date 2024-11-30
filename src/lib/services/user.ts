@@ -2,7 +2,7 @@ import axios from 'axios'
 import { FinancialFormValues } from '../validations/settings'
 import { EmailFormValues, PasswordFormValues } from '../validations/settings'
 
-const API_URL = 'http://localhost:8000/api/v1'
+const API_URL = 'https://finguard-backend.onrender.com/api/v1'
 
 const getAuthHeader = () => {
   const token = localStorage.getItem('token')

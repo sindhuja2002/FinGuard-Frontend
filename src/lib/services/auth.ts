@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { LoginInput, SignupInput } from '../validations/auth'
 
-const API_URL = 'http://localhost:8000/api/v1'
+const API_URL = 'https://finguard-backend.onrender.com/api/v1'
 
 
 const setToken = (token: string) => {
